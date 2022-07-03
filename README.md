@@ -15,11 +15,11 @@ rule-providers:
     path: "./rule_provider/energized_blu_adblock.yaml"
     url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/energized_blu_adblock.yaml
     interval: 14400 # Update rules every 4 hours
-  adblock_abpindo_annoyance:
+   adblock_abpindo_annoyance:
     type: http
     behavior: classical
     path: "./rule_provider/all_ads.yaml"
-    url: https://github.com/aryobrokolly/adsblock/blob/main/all_ads.yaml
+    url: https://raw.githubusercontent.com/aryobrokolly/adsblock/blob/main/all_ads.yaml
     interval: 14400 # Update rules every 4 hours
 rules:
 # Block ads
