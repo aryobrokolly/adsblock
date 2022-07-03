@@ -1,0 +1,2 @@
+# adsblock
+blokir iklan
